@@ -7,6 +7,14 @@ This simulation aims to mimic a corporate environment and the potential attack v
 
 ![screenshot](/Pictures/Overview.jpg)
 
-Here we have some VM's set up for our "attack" simulation
+Here, we have some VM's set up for our "attack" simulation
 
 ![screenshot](/Pictures/VM's.png)
+
+We have to configure the Network Security Group for each VM. 
+
+![screenshot](/Pictures/NSG's.png)
+
+Let's just take a look at the Windows one. We implemented a rule where all of the ports are open, so that hackers are more enticed to exploit it.
+
+![screenshot](/Pictures/NSG-win.png)
