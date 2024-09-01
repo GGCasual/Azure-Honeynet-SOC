@@ -18,3 +18,9 @@ We have to configure the Network Security Group for each VM.
 Let's take a look at the Windows one. Here, we would implement an inbound security rule named "DANGER_AllowAnyCustomAnyInbound," where all the ports are left open so that hackers are more enticed to exploit it.
 
 ![screenshot](/Pictures/NSG-win.png)
+
+
+
+Here, we brute force some login attempts to our Windows-VM and filtered out the Security Event logs from it. We then queried the logs to filter specific information about our "attack" attempts.
+
+![screenshot](/Pictures/KQL-Log-Query.png)
