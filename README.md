@@ -24,3 +24,10 @@ Let's take a look at the Windows one. Here, we would implement an inbound securi
 Here, we brute force some login attempts to our Windows-VM and filtered out the Security Event logs from it. We then queried the logs to filter specific information about our "attack" attempts.
 
 ![screenshot](/Pictures/KQL-Log-Query.png)
+
+
+
+
+After running our vulnerable VM's for 24 hours, here's what our reports are looking like:
+
+![screenshot](/Pictures/Updated%20Workbook%20Pics/linux-ssh-auth-fail-BEFORE.png)
