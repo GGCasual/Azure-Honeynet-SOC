@@ -28,6 +28,10 @@ Here, we brute force some login attempts to our Windows-VM and filtered out the 
 
 
 
-After running our vulnerable VM's for 24 hours, here's what our reports are looking like:
+After running our vulnerable VM's for 24 hours, here's what our reports look like:
 
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/linux-ssh-auth-fail-BEFORE.png)
+
+![screenshot](/Pictures/Updated%20Workbook%20Pics/windows-rdp-auth-fail-BEFORE.png)
+
+![screenshot]
