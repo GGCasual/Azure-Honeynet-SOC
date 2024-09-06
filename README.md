@@ -34,4 +34,4 @@ After running our vulnerable VM's for 24 hours, here's what our reports look lik
 
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/windows-rdp-auth-fail-BEFORE.png)
 
-![screenshot]
+![screenshot](/Pictures/Updated%20Workbook%20Pics/nsg-malicious-allowed-in-BEFORE.png)
