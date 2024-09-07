@@ -21,7 +21,7 @@ Let's take a look at the Windows one. Here, we would implement an inbound securi
 
 
 
-Here, we brute force some login attempts to our Windows-VM and filtered out the Security Event logs from it. We then queried the logs to filter specific information about our "attack" attempts.
+Here, we brute force some login attempts to our Windows-VM and filtered out the Security Event logs from it. We then queried the logs to filter specific information about our "attack" attempts. Based on the KQL query that we constructed, important information like my device's IP address and geographic coordinates are now shown.
 
 ![screenshot](/Pictures/KQL-Log-Query.png)
 
