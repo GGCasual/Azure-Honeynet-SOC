@@ -7,6 +7,9 @@ This simulation aims to mimic a corporate environment and the potential attack v
 
 ![screenshot](/Pictures/Overview.png)
 
+Topology of our Lab:
+![screenshot](/Pictures/Lab-VNet.png)
+
 Here, we have some VM's set up for our "attack" simulation.
 
 ![screenshot](/Pictures/VM's.png)
@@ -35,3 +38,4 @@ After running our vulnerable VM's for 24 hours, here's what our reports look lik
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/windows-rdp-auth-fail-BEFORE.png)
 
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/nsg-malicious-allowed-in-BEFORE.png)
+
