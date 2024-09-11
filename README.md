@@ -39,3 +39,9 @@ After running our vulnerable VM's for 24 hours, here's what our reports look lik
 
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/nsg-malicious-allowed-in-BEFORE.png)
 
+
+
+Here's some statistics from Event Viewer (windows-vm) and Syslog (linux-vm) after we left our VM's vulnerable to the internet and before we implemented any security measurements:
+
+![screenshot](/Pictures/Updated%20Workbook%20Pics/BEFORE-Map-Stats.png)
+
