@@ -29,9 +29,12 @@ Here, we brute force some login attempts to our Windows-VM and filtered out the 
 ![screenshot](/Pictures/KQL-Log-Query.png)
 
 
+Here's some statistics from Event Viewer (windows-vm) and Syslog (linux-vm) after we left our VM's vulnerable to the internet and before we implemented any security measurements:
+
+![screenshot](/Pictures/Updated%20Workbook%20Pics/BEFORE-Map-Stats.png)
 
 
-After running our vulnerable VM's for 24 hours, here's what our reports look like:
+This is a more visual representation of our logs from the vulnerable VM's:
 
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/linux-ssh-auth-fail-BEFORE.png)
 
@@ -41,7 +44,4 @@ After running our vulnerable VM's for 24 hours, here's what our reports look lik
 
 
 
-Here's some statistics from Event Viewer (windows-vm) and Syslog (linux-vm) after we left our VM's vulnerable to the internet and before we implemented any security measurements:
-
-![screenshot](/Pictures/Updated%20Workbook%20Pics/BEFORE-Map-Stats.png)
 
