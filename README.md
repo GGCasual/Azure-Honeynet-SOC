@@ -33,6 +33,10 @@ Here's some statistics from Event Viewer (windows-vm) and Syslog (linux-vm) afte
 
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/BEFORE-Map-Stats.png)
 
+And here's the statistics after some security implementation:
+
+![screenshot](/Pictures/Updated%20Workbook%20Pics/AFTER-Map-Stats.png)
+
 
 This is a more visual representation of our logs from the vulnerable VM's:
 
