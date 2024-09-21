@@ -23,19 +23,9 @@ Let's take a look at the Windows one. Here, we would implement an inbound securi
 ![screenshot](/Pictures/NSG-win.png)
 
 
-
 Here, we brute force some login attempts to our Windows-VM and filtered out the Security Event logs from it. We then queried the logs to filter specific information about our "attack" attempts. Based on the KQL query that we constructed, important information like my device's IP address and geographic coordinates are now shown.
 
 ![screenshot](/Pictures/KQL-Log-Query.png)
-
-
-Here's some statistics from Event Viewer (windows-vm) and Syslog (linux-vm) after we left our VM's vulnerable to the internet and before we implemented any security measurements:
-
-![screenshot](/Pictures/Updated%20Workbook%20Pics/BEFORE-Map-Stats.png)
-
-And here's the statistics after some security implementation:
-
-![screenshot](/Pictures/Updated%20Workbook%20Pics/AFTER-Map-Stats.png)
 
 
 This is a more visual representation of our logs from the vulnerable VM's:
@@ -47,5 +37,16 @@ This is a more visual representation of our logs from the vulnerable VM's:
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/nsg-malicious-allowed-in-BEFORE.png)
 
 
+We then configure Microsoft Sentinel with custom alerts:
 
+![screenshot](/Pictures/Sentinel-Incidents.png)
+
+
+Here's some statistics from Event Viewer (windows-vm) and Syslog (linux-vm) after we left our VM's vulnerable to the internet and before we implemented any security measurements:
+
+![screenshot](/Pictures/Updated%20Workbook%20Pics/BEFORE-Map-Stats.png)
+
+And here's the statistics after some security implementation, based on the NIST 800-53 framework:
+
+![screenshot](/Pictures/Updated%20Workbook%20Pics/AFTER-Map-Stats.png)
 
