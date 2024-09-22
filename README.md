@@ -10,7 +10,7 @@ This simulation aims to mimic a corporate network environment and the potential 
 Topology of our Lab:
 ![screenshot](/Pictures/Lab-VNet.png)
 
-Here, we have some VM's set up for our "attack" simulation.
+Here, we have some VMs for our "attack" simulation.
 
 ![screenshot](/Pictures/VM's.png)
 
@@ -23,7 +23,7 @@ Let's take a look at the Windows one. Here, we would implement an inbound securi
 ![screenshot](/Pictures/NSG-win.png)
 
 
-Here, we brute force some login attempts to our Windows-VM and filtered out the Security Event logs from it. We then queried the logs to filter specific information about our "attack" attempts. Based on the KQL query that we constructed, important information like my device's IP address and geographic coordinates are now shown.
+Here, we brute force some login attempts to our Windows-VM and filtered out the Security Event logs. We then queried the logs to filter specific information about our "attack" attempts. Based on our constructed KQL query, important information like my device's IP address and geographic coordinates are now shown.
 
 ![screenshot](/Pictures/KQL-Log-Query.png)
 
@@ -42,11 +42,11 @@ We then configure Microsoft Sentinel with custom alerts:
 ![screenshot](/Pictures/Sentinel-Incidents.png)
 
 
-Here's some statistics from Event Viewer (windows-vm) and Syslog (linux-vm) after we left our VM's vulnerable to the internet and before we implemented any security measurements:
+Here are some statistics from Event Viewer (windows-vm) and Syslog (linux-vm) after we left our VMs vulnerable to the internet and before we implemented any security measurements:
 
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/BEFORE-Map-Stats.png)
 
-And here's the statistics after some security implementation, based on the NIST 800-53 framework:
+And here are the statistics after some security implementation based on the NIST 800-53 framework:
 
 ![screenshot](/Pictures/Updated%20Workbook%20Pics/AFTER-Map-Stats.png)
 
