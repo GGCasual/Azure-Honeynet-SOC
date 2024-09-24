@@ -1,6 +1,5 @@
 # Azure-Honeynet-SOC
  
- <h3><i>Currently under construction...</i></h3>
 
 This project showcases a live honeynet/SOC environment hosted within Microsoft Azure using several services like Entra ID, Sentinel, and Virtual Machines.
 This simulation aims to mimic a corporate network environment and the potential attack vectors it can be prone to.
